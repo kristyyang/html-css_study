@@ -195,3 +195,107 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
 ------------
 
 #### Basic table structure
+
+```bash
+<table>
+   <tr>
+       <td>11</td>
+       <td>12</td>
+       <td>13</td>
+   </tr>
+   <tr>
+      <td>21</td>
+      <td>22</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>32</td>
+      <td>33</td>
+    </tr>
+</Table>
+```
+[Demo](https://jsbin.com/keceqofuno/edit?html,output)
+
+- table : creat table
+- tr : elements
+- td : features
+
+#### Table Headings
+
+```bash
+<table>
+   <tr>
+    <th></th>
+      <th scope="col">Attri 1</th>
+    <th scope="col">Attri 2</th>
+   </tr>
+   <tr>
+    <th scope="row">Ele 1: </th>
+     <td>1</td>
+     <td>2</td>
+   </tr>
+   <tr>
+    <th scope="row">Ele 2: </th>
+     <td>3</td>
+     <td>4</td>
+   </tr>
+</table>
+```
+
+[Demo](https://jsbin.com/keceqofuno/edit?html,output)
+
+- th: represent the empty cell, Headings
+
+#### Spanning columns
+
+```bash
+<table>
+   <tr>
+    <th></th>
+    <th>9am</th>
+    <th>10am</th>
+    <th>11am</th>
+    <th>12pm</th>
+   </tr>
+   <tr>
+    <th>Monday</th>
+    <th colspan="2">Math</th>
+    <th>CPSC</th>
+    <th>English</th>
+   </tr>
+   <tr>
+     <th>Tuesday</th>
+     <th colspan="3">French</th>
+     <th>Chemistry</th>
+   </tr>
+</table>
+```
+
+[Demo](https://jsbin.com/keceqofuno/edit?html,output)
+
+#### Spanning Rows
+
+```bash
+<table>
+   <tr>
+    <th></th>
+    <th>9am</th>
+    <th>10am</th>
+    <th>11am</th>
+   </tr>
+   <tr>
+    <th>Monday</th>
+    <th rowspan="2">Math</th>
+    <th>CPSC</th>
+    <th>English</th>
+   </tr>
+   <tr>
+     <th>Tuesday</th>
+     <th>French</th>
+     <th>Chemistry</th>
+   </tr>
+</table>
+```
+
+[Demo](https://jsbin.com/keceqofuno/edit?html,output)
