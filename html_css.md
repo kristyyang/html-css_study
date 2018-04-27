@@ -5,7 +5,7 @@
 - Lists
   - [Numbered Lists](#lists)
     - [Ordered Lists](#ordered-lists)
-    - [Unordered Lists](#unordered-lises)
+    - [Unordered Lists](#unordered-lists)
   - [Definition lists](#definition-lists)
 
 - Links
