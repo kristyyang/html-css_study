@@ -314,6 +314,8 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
 
 #### Form structure
 
+##### Password input
+
 ```bash
 <form action="http://www.example.com/login.php">
  <p>Usename:
@@ -325,4 +327,78 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
 </form>
 ```
 
+[Demo](https://jsbin.com/wokakufome/edit?html,output)
+
+- type = "text" : data type as text input
+- name : name attributes
+- size/maxlength : size and maxlength attributes
+
+##### Text area
+
+```bash
+<form action="http://www.example.com/comments.php">
+ <p>What do you see yourself in the upcoming ten years? </p>
+ <textarea name="comments" cols="20" rows="4">Entering your comments...</textarea>
+</form>
+```
+
 [Demo](https://jsbin.com/keceqofuno/edit?html,output)
+
+- textarea: used a multu-line text input.
+
+##### Checkbox
+
+```bash
+<form action="http://www.example.com/profile.php">
+  <p>Please select your favorite coffee drink:
+    <br />
+    <input type="checkbox" name="service" value="black" checked="checked" /> Black
+    <input type="checkbox" name="service" value="Latte"  /> Latte
+    <input type="checkbox" name="service" value="Mocha"  /> Mocha
+  </p>
+</form>
+```
+
+[Demo](https://jsbin.com/keceqofuno/edit?html,output)
+
+- type = "radio" : pick just one of a number of options.
+- type = "checkbox" : select more than one options.
+- name : indicates the value that is sent to the server for selected options
+- checked : can be used to indicate which value should be selected when the page loads
+
+##### Drop Down List Box
+
+```bash
+<form action="http://www.example.com/profile.php">
+ <p> What programming language do you use to do project?</p>
+ <select name="language">
+   <option value="javascript">javascript</option>
+   <option value="Ruby">Ruby</option>
+   <option value="nodejs">NodeJs</option>
+ </select>
+</form>
+```
+
+[Demo](https://jsbin.com/weqinepidu/1)
+
+- select : drop down list Box, allows users to select one option.
+- name : name of the form
+- option : specify the options that the user can select from
+  - value : option name
+
+##### Multiple select Box
+
+```bash
+<form action="http://www.example.com/profile.php">
+  <p>What programming language you usually use? (You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)</p>
+  <select name="language" size="3" multiple="multiple">
+  <option value="javascript" selected="selected">javascript</option>
+  <option value="Ruby" selected="selected">Ruby</option>
+  <option value="NodeJs" selected="selected">NodeJs</option>
+  </select>
+</form>
+```
+
+[Demo](https://output.jsbin.com/wuhonavezo)
+
+- multiple: select multiple options
