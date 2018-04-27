@@ -3,10 +3,10 @@
 ## Table of the content
 
 - Lists
-  - [Numbered Lists](#Lists)
-    - [Ordered Lists](#Ordered-Lists)
-    - [Unordered Lists](#Unordered-Lises)
-  - [Definition lists](#Definition-Lists)
+  - [Numbered Lists](#lists)
+    - [Ordered Lists](#ordered-lists)
+    - [Unordered Lists](#unordered-lises)
+  - [Definition lists](#definition-lists)
 
 - Links
   - Creating links
