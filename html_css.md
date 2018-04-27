@@ -19,6 +19,11 @@
 
 - Table
   - [Basic table structure](#basic-table-structure)
+  - [Table Headings](#table-headings)
+  - [Spanning columns](#spanning-columns)
+  - [Spanning Rows](#spanning-rows)
+
+- Form
 
 
 
@@ -296,6 +301,28 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
      <th>Chemistry</th>
    </tr>
 </table>
+```
+
+[Demo](https://jsbin.com/keceqofuno/edit?html,output)
+
+- rowspan : row Spanning
+- colspan : column Spanning
+
+### Form
+
+--------
+
+#### Form structure
+
+```bash
+<form action="http://www.example.com/login.php">
+ <p>Usename:
+    <input type="text" name="usename" size="15" maxlength="30">
+ </p>
+ <p>Password:
+   <input type="password" name="password" size="15" maxlength="30">
+ </p>
+</form>
 ```
 
 [Demo](https://jsbin.com/keceqofuno/edit?html,output)
