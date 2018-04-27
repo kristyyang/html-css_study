@@ -4,9 +4,9 @@
 
 - Lists
   - [Numbered Lists](#Lists)
-    - [Ordered Lists](#html_css-OrderedLists)
-    - [Unordered Lists](#html_css-UnorderedLises)
-  - [Definition lists](#DefinitionLists)
+    - [Ordered Lists](#Ordered-Lists)
+    - [Unordered Lists](#Unordered-Lises)
+  - [Definition lists](#Definition-Lists)
 
 - Links
   - Creating links
