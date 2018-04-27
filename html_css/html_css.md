@@ -11,14 +11,13 @@
 - Links
   - [Linking to other sites](#linking-to-other-sites)
   - [Linking to other pages on the same sites](#linking-to-other-pages-on-the-same-sites)
-  - [Relative link type](#relative-link-type)
-  - [Email Links](#email-links)
+  - Email Links
 
 - Images
-  - [Adding Images](#adding-images)
+  - Adding Images
 
 - Table
-  - [Basic table structure](#basic-table-structure)
+  - Basic table structure
 
 
 
