@@ -402,3 +402,30 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
 [Demo](https://output.jsbin.com/wuhonavezo)
 
 - multiple: select multiple options
+
+###### File input Box
+
+```bash
+<form action="http://www.example.com/upload.php" method="post">
+ <p>upload your sone in MP3 format</p>
+ <input type="file" name ="user-song" /><br />
+ <input type="submit" value="Upload" />
+</form>
+```
+
+[Demo](https://jsbin.com/tayufodahu)
+
+- input: allow users to upload a file
+- type = file : creates a box that look like a text input followed by Browse
+- type = submit : the submit button is used to sent a form to the server.
+- value : text appears in the button
+
+###### Image button
+
+```bash
+<form action ="http://www.example.org/sunscribe.php">
+  <p>Subscribe to our email lists</p>
+  <input type="text" name="email" />
+  <input type="image" src="images/subscribe.jpg" width="10" height="20" />
+</form>
+```
