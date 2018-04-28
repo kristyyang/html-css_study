@@ -429,3 +429,45 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
   <input type="image" src="images/subscribe.jpg" width="10" height="20" />
 </form>
 ```
+
+[Demo](https://jsbin.com/dexicafodo)
+
+###### Labelling form controls
+
+```bash
+<label>Age: <input type="text" name="age" /></label>
+<br/ >
+Gender:
+<input id="female" type="radio" name="gender" value="f">
+<label for="female">Female</label>
+<input id="male" type="radio" name="gender" value="m">
+<label for="male">Male</label>
+```
+
+- Label: both the text description and form input.
+- Separate from the form control and use for form control.
+
+###### Grouping form elements
+
+```bash
+<fieldset>
+  <legend>Contect details</legend>
+  <label>Email: <br />
+  <input type="text" name="email" /></label ><br />
+  <label>Mobile: <br />
+  <input type="text" name="mobile" /></label><br />
+  <label>Telephone: <br />
+  <input type="text" name="telephone" /></label>
+</fieldset>
+```
+
+[Demo](https://jsbin.com/pevujicove)
+
+- fieldset : related form controls
+- legend : identity purpose of Grouping
+
+###### Form Validation
+
+```bash
+
+```
