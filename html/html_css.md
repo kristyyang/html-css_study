@@ -24,6 +24,20 @@
   - [Spanning Rows](#spanning-rows)
 
 - Form
+  - [Form structure](form-structure)
+    -[Password input](password-input)
+    -[Text area](text-area)
+    -[Checkbox](checkbox)
+    -[Drop Down List Box](drop-down-list-box)
+    -[Multiple select Box](multiple-select-box)
+    -[File input Box](file-input-box)
+    -[Image button](image-button)
+    -[Labelling form controls](labelling-form-controls)
+    -[Grouping form elements](grouping-form-elements)
+    -[Form Validation](form-validation)
+    -[Date input](date-input)
+    -[Email & URL input](email-&-URL-input)
+    -[Search input](search-input)
 
 ### Lists
 
@@ -401,7 +415,7 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
 
 - multiple: select multiple options
 
-###### File input Box
+##### File input Box
 
 ```html
 <form action="http://www.example.com/upload.php" method="post">
@@ -418,7 +432,7 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
 - type = submit : the submit button is used to sent a form to the server.
 - value : text appears in the button
 
-###### Image button
+##### Image button
 
 ```html
 <form action ="http://www.example.org/sunscribe.php">
@@ -430,7 +444,7 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
 
 [Demo](https://jsbin.com/dexicafodo)
 
-###### Labelling form controls
+##### Labelling form controls
 
 ```html
 <label>Age: <input type="text" name="age" /></label>
@@ -445,7 +459,7 @@ Gender:
 - Label: both the text description and form input.
 - Separate from the form control and use for form control.
 
-###### Grouping form elements
+##### Grouping form elements
 
 ```html
 <fieldset>
@@ -464,8 +478,61 @@ Gender:
 - fieldset : related form controls
 - legend : identity purpose of Grouping
 
-###### Form Validation
+##### Form Validation
 
 ```html
-
+<form action="http://wwww.example.com/login/"method="post">
+<label for="usename">Username: </label>
+<input type="text" name="username" required="required" /><br />
+<label for="password">Password: </label>
+<input type="password" name="password" required="required" />
+<input type="submit" value="submit" />
 ```
+
+[Demo](https://jsbin.com/xexuxirolu)
+
+- required : will give notice that required information to filled out.
+
+##### Date input
+
+```html
+<form action="http://www.example.com/bookings/" method="post">
+<label for="depart">Depart Date: </label>
+<input type="date" name="depart" />
+<input type="submit" value="Submit" />
+</form>
+```
+
+[Demo](https://jsbin.com/loboloyiye)
+
+- type = date : input element type has to be date
+
+##### Email & URL input
+
+```html
+<fieldset>
+ <legend>Put your Email&URL address</legend>
+ <p>Please enter your email address: </p>
+ <input type="email" name="email" required="required"/>
+ <input type="submit" value="Submit" />
+ <p>Please enter your website address: </p>
+ <input type="url" name="website" />
+ <input type="submit" value="Submit" />
+ </fieldset>
+```
+
+[Demo](https://jsbin.com/duzenasidu)
+
+##### Search input
+
+```html
+<fieldset>
+<p>Search</p>
+<input type="search" name="search" placeholder="Enter keyword" />
+<input type="submit" value="Search" />
+</fieldset>
+```
+
+[Demo](https://jsbin.com/belekiqami)
+
+- placeholder: text that will be shown in the text box.
