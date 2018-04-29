@@ -25,15 +25,13 @@
 
 - Form
 
-
-
 ### Lists
 
 ----------
 
 #### Ordered Lists
 
-```bash
+```html
 <ol>
    <li>First element</li>
    <li>Second element</li>
@@ -42,14 +40,14 @@
 </ol>
 ```
 
-```bash
+```html
 <ol>: The ordered Lists
 <li>: Each item placed between an opening<li> tag
 ```
 
 #### Unordered Lists
 
-``` bash
+``` html
 <ul>
   <li>Second element</li>
   <li>First element</li>
@@ -57,20 +55,20 @@
 </ul>
 ```
 
-```bash
+```html
 <ul> The unordered list is created with <ul>elements
 ```
 
 #### Definition Lists
 
-```bash
+```html
 <dl>
   <dt>Definition</dt>
   <dd>A definition is a statement of the meaning of a term. Definitions can be classified into two large categories, intensional definitions and extensional definitions</dd>
 </dl>
 ```
 
-```bash
+```html
 <dl> The dinition list
 <dt> This is used to contain the term being definted
 <dd> This is used to contain the definition.
@@ -78,7 +76,7 @@
 
 #### Nested Lists
 
-```bash
+```html
 <ul>
   <li>Coffee</li>
   <li>Juice
@@ -92,7 +90,7 @@
 </ul>
 ```
 
-```bash
+```html
 <li> you can put a second list inside an <li> element to creat a sub-list
 ```
 
@@ -102,7 +100,7 @@
 
 #### Linking to other sites
 
-```bash
+```html
 <p> Download lists:
    <ul>
      <li><a href="https://www.javascript.com/">javascript</a></li>
@@ -114,7 +112,7 @@
 
 #### Linking to other pages on the same sites
 
-```bash
+```html
 <p>
   <ul>
    <li><a href="index.html">name</a></li>
@@ -128,7 +126,7 @@
 
 ##### Same Folder
 
-```bash
+```html
 <p>
    <ul>
      <li><a href="reviews.html">reviews</a></li>
@@ -138,7 +136,7 @@
 
 ##### Child Folder
 
-```bash
+```html
 <p>
   <ul>
      <li><a href="music/listings.html">listings</a></li>
@@ -148,7 +146,7 @@
 
 ##### Parent Folder
 
-```bash
+```html
 <p>
    <ul>
       <li><a href="../index.html">Home</a></li>
@@ -158,7 +156,7 @@
 
 ##### Grandparent Folder
 
-```bash
+```html
 <p>
    <ul>
       <li><a href="../../index.html">Home</a></li>
@@ -168,7 +166,7 @@
 
 #### Email Links
 
-```bash
+```html
 <p>
    <ul>
    <li><a href="html_css@example.org">Email</a></li>
@@ -182,7 +180,7 @@
 
 #### Adding Images
 
-```bash
+```html
 <img src="images/quokka.jpg"
 alt="A family of quokka"
 tittle="The quokka is an Australian marsupial that is similar in size to the domestic cat." width="600" height="450" />
@@ -201,7 +199,7 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
 
 #### Basic table structure
 
-```bash
+```html
 <table>
    <tr>
        <td>11</td>
@@ -228,7 +226,7 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
 
 #### Table Headings
 
-```bash
+```html
 <table>
    <tr>
     <th></th>
@@ -254,7 +252,7 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
 
 #### Spanning columns
 
-```bash
+```html
 <table>
    <tr>
     <th></th>
@@ -281,7 +279,7 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
 
 #### Spanning Rows
 
-```bash
+```html
 <table>
    <tr>
     <th></th>
@@ -316,7 +314,7 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
 
 ##### Password input
 
-```bash
+```html
 <form action="http://www.example.com/login.php">
  <p>Usename:
     <input type="text" name="usename" size="15" maxlength="30">
@@ -335,7 +333,7 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
 
 ##### Text area
 
-```bash
+```html
 <form action="http://www.example.com/comments.php">
  <p>What do you see yourself in the upcoming ten years? </p>
  <textarea name="comments" cols="20" rows="4">Entering your comments...</textarea>
@@ -348,7 +346,7 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
 
 ##### Checkbox
 
-```bash
+```html
 <form action="http://www.example.com/profile.php">
   <p>Please select your favorite coffee drink:
     <br />
@@ -368,7 +366,7 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
 
 ##### Drop Down List Box
 
-```bash
+```html
 <form action="http://www.example.com/profile.php">
  <p> What programming language do you use to do project?</p>
  <select name="language">
@@ -388,7 +386,7 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
 
 ##### Multiple select Box
 
-```bash
+```html
 <form action="http://www.example.com/profile.php">
   <p>What programming language you usually use? (You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)</p>
   <select name="language" size="3" multiple="multiple">
@@ -405,7 +403,7 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
 
 ###### File input Box
 
-```bash
+```html
 <form action="http://www.example.com/upload.php" method="post">
  <p>upload your sone in MP3 format</p>
  <input type="file" name ="user-song" /><br />
@@ -422,7 +420,7 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
 
 ###### Image button
 
-```bash
+```html
 <form action ="http://www.example.org/sunscribe.php">
   <p>Subscribe to our email lists</p>
   <input type="text" name="email" />
@@ -434,7 +432,7 @@ tittle="The quokka is an Australian marsupial that is similar in size to the dom
 
 ###### Labelling form controls
 
-```bash
+```html
 <label>Age: <input type="text" name="age" /></label>
 <br/ >
 Gender:
@@ -449,7 +447,7 @@ Gender:
 
 ###### Grouping form elements
 
-```bash
+```html
 <fieldset>
   <legend>Contect details</legend>
   <label>Email: <br />
@@ -468,6 +466,6 @@ Gender:
 
 ###### Form Validation
 
-```bash
+```html
 
 ```
