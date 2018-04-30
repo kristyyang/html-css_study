@@ -2,42 +2,45 @@
 
 ## Table of the content
 
-- Lists
+- [Lists](#lists)
   - [Numbered Lists](#lists)
     - [Ordered Lists](#ordered-lists)
     - [Unordered Lists](#unordered-lists)
   - [Definition lists](#definition-lists)
 
-- Links
+- [Links](links)
   - [Linking to other sites](#linking-to-other-sites)
   - [Linking to other pages on the same sites](#linking-to-other-pages-on-the-same-sites)
   - [Relative link type](#relative-link-type)
   - [Email Links](#email-links)
 
-- Images
+- [Images](images)
   - [Adding Images](#adding-images)
 
-- Table
+- [Table](table)
   - [Basic table structure](#basic-table-structure)
   - [Table Headings](#table-headings)
   - [Spanning columns](#spanning-columns)
   - [Spanning Rows](#spanning-rows)
 
-- Form
-  - [Form structure](form-structure)
-    -[Password input](password-input)
-    -[Text area](text-area)
-    -[Checkbox](checkbox)
-    -[Drop Down List Box](drop-down-list-box)
-    -[Multiple select Box](multiple-select-box)
-    -[File input Box](file-input-box)
-    -[Image button](image-button)
-    -[Labelling form controls](labelling-form-controls)
-    -[Grouping form elements](grouping-form-elements)
-    -[Form Validation](form-validation)
-    -[Date input](date-input)
-    -[Email & URL input](email-&-URL-input)
-    -[Search input](search-input)
+- [Form](form)
+  - [Form structure](#form-structure)
+    -[Password input](#password-input)
+    -[Text area](#text-area)
+    -[Checkbox](#checkbox)
+    -[Drop Down List Box](#drop-down-list-box)
+    -[Multiple select Box](#multiple-select-box)
+    -[File input Box](#file-input-box)
+    -[Image button](#image-button)
+    -[Labelling form controls](#labelling-form-controls)
+    -[Grouping form elements](#grouping-form-elements)
+    -[Form Validation](#form-validation)
+    -[Date input](#date-input)
+    -[Email & URL input](#email-&-URL-input)
+    -[Search input](#search-input)
+- [Extra Markup](extra-markup)
+  - [Paragraph](#paragraph)
+  - [Id attributes](#id-attributes)
 
 ### Lists
 
@@ -536,3 +539,33 @@ Gender:
 [Demo](https://jsbin.com/belekiqami)
 
 - placeholder: text that will be shown in the text box.
+
+### Extra Markup
+
+####Paragraph
+
+```html
+<!-- start of introduction -->
+<h1>Current Exhibitions</h1>
+<h2>Olafur Eliasson</h2>
+<!--end of introduction-->
+<!-- start of main text -->
+<p>blablablablabla</p>
+<p>blablablablabla</p>
+<!--end of main text-->
+<!--
+  <a href="mailto:info@example.org">Contact</a>
+  -->
+```
+
+- !-- -- comment to code not be visible to user's browser
+
+#### Id attributes
+
+```html
+<p>Water and air. So very commonplace are these substances, they hardly attract attention -- and yet they vouchsafe our very existence.</p>
+<p id="pullquote">Every time I view the sea I feel a calming sense of security, as if visiting my ancestral home; I embark on a voyage of seeing</p>
+<p>Mystery of mysteries, water and air are right there before us in the sea</p>
+```
+
+[Demo](https://jsbin.com/yokudomipi)
